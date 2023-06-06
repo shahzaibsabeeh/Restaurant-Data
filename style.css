@@ -1,39 +1,61 @@
-/* style.css */
-
-/* Center-align the form */
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Add some spacing */
-h1, h2 {
-  margin-bottom: 10px;
-}
-
-label {
-  margin-top: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="number"] {
-  width: 200px;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-button[type="submit"] {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button[type="submit"]:hover {
-  background-color: #45a049;
-}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #customerForm {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  #customerForm h2 {
+    margin-bottom: 10px;
+  }
+  
+  #customerForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #customerForm input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #invoiceContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #invoiceTable {
+    width: 500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  #invoiceTable th,
+  #invoiceTable td {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #invoiceTable th {
+    background-color: #f0f0f0;
+  }
+  
+  #invoiceTable tfoot td {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
